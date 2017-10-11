@@ -7,7 +7,7 @@ import {HttpModule} from '@angular/http';
 import { AppComponent } from './app.component';
 
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatMenuModule, MatIconModule} from '@angular/material';
+import {MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -21,6 +21,7 @@ import {MatButtonModule, MatCardModule, MatMenuModule, MatIconModule} from '@ang
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
+    MatToolbarModule,
     MatIconModule
   ],
   providers: [],
